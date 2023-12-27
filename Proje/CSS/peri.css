@@ -41,8 +41,6 @@
 
 
  .periodic-table {
-  /* background-color: aliceblue;
-  width: 0%; */
   display: grid;
   grid-template-columns: repeat(23, 1fr); /* <> sütun */
   grid-template-rows: repeat(13 , 1fr); /* <> satır div genişğin  burdan ayarla */
@@ -160,8 +158,8 @@ i{
 
 model-viewer {
   overflow: hidden;
-  width: 80vw; /* Set a percentage or fixed width as desired */
-  height: 80vh; /* Set a percentage or fixed height as desired */
+  width: 80vw;
+  height: 80vh; 
 }
 *{-webkit-user-select: none;
   -moz-user-select: none;
