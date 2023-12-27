@@ -1,0 +1,169 @@
+
+  body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    overflow: hidden;
+    transform: scale(0.9); 
+    transform-origin: top left; 
+  }
+  
+  .element:hover {
+    /* color: rgb(9, 31, 226); */
+    transform: scale(1.3);
+   overflow:hidden;
+  }
+  
+  .arda{
+
+  z-index: 1;
+  border-radius: 40px;
+  margin:100px;
+  top: 5px;
+  left: 250px;
+  position:relative;
+
+/* çerçeve renkleri */
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.952),
+  0 0 20px rgba(76, 255, 180, 0.801),
+  0 0 30px rgba(76, 255, 180, 0.582),
+  0 0 50px rgba(76, 255, 180, 0.288);
+
+  /* iç rengi */
+  background: repeating-conic-gradient(rgb(255, 255, 255) 0%, transparent .0002%, transparent .075%, transparent .65%), repeating-conic-gradient(rgba(201, 188, 188, 0.644) 0%, transparent .0004%, transparent 0.05%, transparent .495%), radial-gradient(circle at 50% 50%, rgba(33, 55, 102, 0.555), #000000);
+
+ 
+ }
+
+
+ .periodic-table {
+  /* background-color: aliceblue;
+  width: 0%; */
+  display: grid;
+  grid-template-columns: repeat(23, 1fr); /* <> sütun */
+  grid-template-rows: repeat(13 , 1fr); /* <> satır div genişğin  burdan ayarla */
+  gap: 12px; /* Sütun ve satırlar arasındaki boşluklar */
+}
+
+
+  .share-button.play-button {
+      display: none !important;
+      background-position: center;
+  }
+
+
+*{ 
+   position:relative; 
+  text-align: center;float: left;
+  
+}
+
+
+ /* button ile ilgili şeyler */
+
+.element {
+
+z-index: 0;
+display: flex;
+align-items:center;
+justify-content:center;
+
+  left: 150px;
+  top:100px ;
+  border: 1px solid rgb(0, 0, 0);
+  width: 50px; /* Button genişliği değiştirme */
+  height: 50px; /* Button yüksekliği değiştirme */
+  border-radius: 10px;
+  /* background-color: rgb(236, 236, 104); */
+  font-size: 20px;
+  cursor: pointer;
+  transition: color 0.3s, transform 0.3s;
+  /* color: rgb(0, 0, 0); */
+}
+
+.element:hover.infoBlock {
+  /* color: rgb(9, 31, 226); */
+  transform: scale(1.3);
+  overflow:hidden;
+  opacity: 1;
+   visibility: visible;  /* görünür hale getirir */
+}
+
+
+/* bilgi kutusu için şeyler */
+
+.infoBlock {
+
+  z-index: 1;
+  color: rgb(255, 255, 255);
+  width: 400px;
+  background-color: rgb(18, 59, 71);
+  margin-top: 150px;
+  padding: 30px;
+  border-radius: 10px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s, visibility 0.5s;
+ 
+}
+
+/* yazı renkleri */
+.infoBlock p {
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  
+}
+
+h2{
+  color: rgb(231, 228, 38);
+}
+
+
+h3{
+color: rgb(45, 153, 35);
+}
+
+
+.closeButton {
+  position: absolute;
+  top: 9px;
+  right: 21px;
+  background-color: transparent;
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
+  color: red;
+}
+
+.closeButton:hover {
+  color: rgb(247, 0, 0);
+}
+
+
+
+i{
+  color: white;
+  font-size: 50px;
+  position: relative;
+  right: 1550px ;
+  top: 30px;
+}
+
+
+model-viewer {
+  overflow: hidden;
+  width: 80vw; /* Set a percentage or fixed width as desired */
+  height: 80vh; /* Set a percentage or fixed height as desired */
+}
+*{-webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;}

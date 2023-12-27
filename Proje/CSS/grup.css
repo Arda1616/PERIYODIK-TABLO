@@ -1,0 +1,95 @@
+/* ELEMENT GRUP RENKLERİ */
+
+.diğerametaller .element {
+    background-color: rgb(135, 228, 74);
+    color: #000000;
+  }
+  
+  
+  
+  .soygaz .element{
+  
+    background-color: rgb(201, 88, 201);
+    color: #ffffff;
+  }
+  
+  
+  
+  .yarımetal .element{
+    background-color: rgb(37, 168, 140);
+    color: #000000;
+  }
+  
+  
+  .zayifmetal.element{
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+  }
+  
+  .geçişmetal .element{
+    background-color: rgb(226, 127, 127);
+    color: #000000;
+  }
+  
+  .lantanit .element{
+    background-color: rgb(185, 121, 0);
+    color: #000000;
+  }
+  
+  .aktinit .element{
+    background-color: rgb(241, 137, 228);
+    color: #000000;
+  }
+  
+  .toprakalkalimetal .element{
+    background-color: rgb(255, 218, 9);
+    color: #000000;
+  }
+  
+  .alkalimetal .element{
+    background-color: rgb(255, 181, 43);
+    color: #000000;
+  }
+  
+  .tanımsız .element{
+    background-color: rgb(116, 194, 224);
+    color: #000000;
+  }
+  
+  /* Saydamlığı düşürmek için  */
+  .reduce-opacity {
+    opacity: 0.1; 
+  }
+  
+  
+  /* Element gruplandırma yazıları  */
+  
+  .element-button {
+  
+  position: relative;
+  font-size: 16px; 
+  border-radius: 11%;
+  border: 0px;
+  background-color: #111; 
+  color: #ffffff; 
+  padding: 0px 20px;
+  margin: 5px;
+  left: 259px;
+  top: 50px;
+  height:50px ; 
+  width: 150px; /* Düğme genişliği */
+  display: inline-block; /* Düğmeleri yan yana sırala */
+  text-decoration: none;
+  
+  }
+  
+  
+  /* Düğmelerin üzerine geldiğinde stil özellikleri
+  .element-button:hover {
+    background-color: #c7bc97; /* Arkaplan rengi değişikliği /*
+  }
+  
+   Seçilen düğmenin stil özellikleri 
+  .element-button.active {
+    background-color: #da8471; /* Arkaplan rengi değişikliği /*
+  } */
