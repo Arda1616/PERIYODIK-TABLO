@@ -69,8 +69,8 @@
 
   #house model-viewer {
     pointer-events: none;
-    width: 80%; /* You can adjust the size */
-    height: 80vh; /* You can adjust the size */
+    width: 80%; 
+    height: 80vh; 
     top: 10%;
   }
 
@@ -93,9 +93,9 @@
 
   house.addEventListener('mousemove', (event) => {
     if (isRotating) {
-      const rotationSpeed = 0.5; // You can adjust the rotation speed
-      const rotationX = (event.clientX / house.clientWidth) * 500; // Calculate rotation based on mouse horizontal position
-      const rotationY = (event.clientY / house.clientHeight) * 500; // Calculate rotation based on mouse vertical position
+      const rotationSpeed = 0.5; 
+      const rotationX = (event.clientX / house.clientWidth) * 500;
+      const rotationY = (event.clientY / house.clientHeight) * 500; 
       house.querySelector('model-viewer').cameraOrbit = `${rotationY}deg ${rotationX}deg auto`;
     }
   });
