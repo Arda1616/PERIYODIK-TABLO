@@ -1,4 +1,4 @@
-# PERIODIC TABLE
+# PERİYODİK TABLO
 ![image](https://github.com/Arda1616/PERIODIC_TABLE/assets/144992095/f61994ba-379a-49b0-a038-7afe882464f0)
 
 
