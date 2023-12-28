@@ -41,6 +41,7 @@
 
 
  .periodic-table {
+
   display: grid;
   grid-template-columns: repeat(23, 1fr); /* <> sütun */
   grid-template-rows: repeat(13 , 1fr); /* <> satır div genişğin  burdan ayarla */

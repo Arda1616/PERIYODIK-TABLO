@@ -1,0 +1,9 @@
+@media(max-width:1440px){
+    .title{
+        bottom: 20%;
+    }
+    .periodic-table{
+        transform: scale(0.9);
+        
+    }
+}
