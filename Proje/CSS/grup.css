@@ -64,21 +64,23 @@
   
   /* Element gruplandırma yazıları  */
   
+  .element-groups{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    width: 100%;
+    
+  }
+
   .element-button {
-  
-  position: relative;
+  cursor: pointer;
   font-size: 16px; 
-  border-radius: 11%;
-  border: 0px;
-  background-color: #111; 
+  background-color: #00000000; 
   color: #ffffff; 
   padding: 0px 20px;
   margin: 5px;
-  left: 259px;
-  top: 50px;
-  height:50px ; 
-  width: 150px; /* Düğme genişliği */
-  display: inline-block; /* Düğmeleri yan yana sırala */
+  height:50px; 
+  /* Düğmeleri yan yana sırala */
   text-decoration: none;
   
   }

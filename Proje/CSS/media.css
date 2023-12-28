@@ -4,6 +4,37 @@
     }
     .periodic-table{
         transform: scale(0.9);
-        
+        left: 15px;
     }
+    
+        
+    
+
+   .element{
+    transform: scale(0.9);
+     left: 50px;
+    }
+    .element-groups{
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+    }
+}
+@media(max-width:1100px){
+    .title{
+        bottom: 10%;
+    }
+    .periodic-table{
+        transform: scale(0.8);
+        left: 15px;
+    }
+    
+    
+    .element-groups{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+    .element-button{
+        width: 150px;
+    }
+
 }

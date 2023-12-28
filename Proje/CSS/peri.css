@@ -16,17 +16,19 @@
     transform: scale(1.3);
    overflow:hidden;
   }
-  
+
   .arda{
 
   z-index: 1;
   border-radius: 40px;
   margin:100px;
   top: 5px;
-  left: 250px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
   position:relative;
-
-/* çerçeve renkleri */
+  left: 175px;
+  /* çerçeve renkleri */
 
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.952),
   0 0 20px rgba(76, 255, 180, 0.801),
@@ -37,7 +39,7 @@
   background: repeating-conic-gradient(rgb(255, 255, 255) 0%, transparent .0002%, transparent .075%, transparent .65%), repeating-conic-gradient(rgba(201, 188, 188, 0.644) 0%, transparent .0004%, transparent 0.05%, transparent .495%), radial-gradient(circle at 50% 50%, rgba(33, 55, 102, 0.555), #000000);
 
  
- }
+}
 
 
  .periodic-table {
@@ -62,7 +64,7 @@
 }
 
 
- /* button ile ilgili şeyler */
+ /* elemet buttonları konumu */
 
 .element {
 
@@ -83,6 +85,9 @@ justify-content:center;
   transition: color 0.3s, transform 0.3s;
   /* color: rgb(0, 0, 0); */
 }
+
+
+
 
 .element:hover.infoBlock {
   /* color: rgb(9, 31, 226); */
@@ -147,13 +152,13 @@ color: rgb(45, 153, 35);
 }
 
 
-
+/* Geri Dönme Buttonu  */
 i{
   color: white;
   font-size: 50px;
-  position: relative;
-  right: 1550px ;
-  top: 30px;
+  position: absolute;
+  left: -200vh ;
+  top: 25px;
 }
 
 
@@ -162,6 +167,8 @@ model-viewer {
   width: 80vw;
   height: 80vh; 
 }
+
+/* yazı kopyalama engelyeci */
 *{-webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
