@@ -8,7 +8,13 @@
     }
     
         
-    
+i{
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    right: 800px ;
+    top: 185px;
+}
 
    .element{
     transform: scale(0.9);
