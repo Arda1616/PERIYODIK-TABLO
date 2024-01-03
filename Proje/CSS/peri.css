@@ -1,3 +1,12 @@
+.element-groups {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+margin-left: 32vh;
+}
+
 
   body{
     margin: 0;
@@ -22,12 +31,12 @@
   z-index: 1;
   border-radius: 40px;
   margin:100px;
-  top: 5px;
+ bottom: 20px;
   display: grid;
   justify-content: center;
   align-items: center;
   position:relative;
-  left: 175px;
+  margin-left: 350px;
   /* çerçeve renkleri */
 
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.952),
@@ -158,7 +167,7 @@ i{
   color: white;
   font-size: 50px;
   position: absolute;
-  left: -200vh ;
+  left: -190vh ;
   top: 25px;
 }
 
