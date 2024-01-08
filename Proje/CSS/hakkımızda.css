@@ -8,3 +8,11 @@ i{
   body{
     background-color: rgb(59, 68, 68);
   }
+
+
+  h2{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    text-align: center;
+  }
+
